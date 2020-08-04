@@ -1,0 +1,95 @@
+    {
+      "global": {
+        "useUTC": false
+      },
+      "chart": {
+        "renderTo": "container",
+        "type": "spline",
+        "height": 300,
+        "width": 500,
+        "marginTop": 45,
+        "marginBottom": 45
+      },
+      "title": {
+        "text": "",
+        "style": {
+          "color": "rgb(139, 134, 134)",
+          "font": "bold 1.1em 'Trebuchet MS', Verdana, sans-serif"
+        }
+      },
+      "credits": {
+        "enabled": false
+      },
+      "legend": {
+        "enabled": false
+      },
+      "xAxis": {
+        "title": {
+          "enabled": true,
+          "text": "",
+          "align": "high",
+          "style": {
+            "color": "rgb(114, 111, 111)"
+          }
+        },
+        "labels": {
+          "style": {
+            "color": "rgb(114, 111, 111)"
+          }
+        },
+        "dateTimeLabelFormats": {
+          "day": "%e. %b",
+          "minute": "%H:%M"
+        },
+        "type": "datetime",
+        "showLastLabel": true,
+        "minRange": 60000,
+        "tickPixelInterval": 80,
+        "lineWidth": 1,
+        "lineColor": "#A0A0A0",
+        "gridLineWidth": 0,
+        "gridLineColor": "#E8E8E8"
+      },
+      "yAxis": {
+        "title": {
+          "enabled": true,
+          "text": "",
+          "style": {
+            "color": "rgb(114, 111, 111)"
+          }
+        },
+        "labels": {
+          "style": {
+            "color": "rgb(114, 111, 111)"
+          }
+        },
+        "minRange": 0.0004,
+        "tickPixelInterval": 25,
+        "lineWidth": 1,
+        "lineColor": "#A0A0A0",
+        "gridLineWidth": 0,
+        "gridLineColor": "#E8E8E8"
+      },
+      "plotOptions": {
+        "spline": {
+          "lineWidth": 1,
+          "pointInterval": 60000,
+          "marker": {
+            "enabled": false
+          }
+        }
+      },
+      "series": [
+        {
+          "id": "curve_line",
+          "color": "rgba(0, 0, 255, 1.0)",
+          "data": [
+            [1538830800000, 9.020376],
+            [1538830801000, 9.020376],
+            [1538834400000, 10.574599],
+            [1538838000000, 6.3690405],
+            [1538841600000, 4.102905]
+          ]
+        }
+      ]
+    }
