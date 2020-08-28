@@ -1,7 +1,7 @@
 # 加入phantomjs+highcharts-png-renderer报表图片生成服务
 FROM centos:centos7
 
-LABEL maintainer="Linus Lee <lizhenghong@ucen.cc>"
+LABEL maintainer="Linus Lee <leeyao1990@gmail.com>"
 
 # 拷贝highcharts-png-renderer到容器
 ADD highcharts-png-renderer /app/highcharts-png-renderer/
